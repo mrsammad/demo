@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border box text back</title>
+
+    <style>
+        body {
+            background-image: url(images/ba.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .ab {
+
+            border: 2px solid black;
+            outline: 2px solid red;
+            outline-offset: 2px;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            width: 300px;
+
+        }
+
+        .rad {
+            border: 2px solid black;
+            outline: 2px solid red;
+            outline-offset: 2px;
+            margin: 30px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            width: 400px;
+            border-radius: 10px 10px 10px 10px;
+            background-color: bisque;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 2px 5px blue, 5px 5px 2px 10px black;
+            text-align: justify;
+            text-align-last: left;
+            text-indent: 10px;
+            text-transform: capitalize;
+            line-height: 30px;
+            word-spacing: 15px;
+            letter-spacing: 0px;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration-style: dotted;
+            word-wrap: break-word;
+            word-break: break-all;
+            float: left;
+        }
+
+        .write {
+            border: 2px solid black;
+            outline: 2px solid red;
+            outline-offset: 2px;
+            margin: 500px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            width: 400px;
+            border-radius: 10px 10px 10px 10px;
+            writing-mode: vertical-lr;
+
+
+        }
+
+        .column {
+           background-color: aquamarine;
+            border: 2px solid black;
+            border-radius: 10px 10px 10px 10px;
+            padding: 5px 5px 5px 5px;
+            text-align: justify;
+            column-count: 3;
+            column-gap: 40px;
+           column-rule: 2px solid green;
+           
+           
+                  }
+    
+.column h2{
+    column-span: all;
+}    
+    
+    
+    
+    
+    </style>
+</head>
+
+<body>
+    <div class="ab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam nihil iure quibusdam expedita soluta
+        in error
+        minima quia? Ab odio temporibus consequuntur nemo quaerat natus omnis laudantium vel maiores debitis!</div>
+
+    <div class="rad">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam nihil iure quibusdam expedita
+        soluta in error
+        minima quia? Ab odio temporibus consequuntur nemo quaerat natus omnis laudantium vel maiores debitis!Lorem
+        ipsum, dolor sit amet consectetur adipisicing elit. Ullam nihil iure quibusdam expedita soluta in error
+        minima quia? Ab odio temporibus consequuntur nemo quaerat natus omnis laudantium vel maiores debitis!</div>
+
+    <div class="write">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo adipisci, aspernatur ea
+        eveniet in minus impedit amet itaque ab, similique blanditiis et facilis? Culpa eos nisi ut esse perspiciatis!
+    </div>
+
+
+    <div class="column"> 
+        
+        <h2>sub heading goes here</h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias corrupti sunt
+        voluptate totam dolorum cum inventore. Qui, harum eligendi laborum libero facilis impedit aut dolorum voluptas
+        hic maiores quibusdam. Aut modi placeat id consequatur quas, ratione quae delectus vel totam sed. Ducimus
+        doloremque totam optio molestias voluptatum consectetur rerum, incidunt facere mollitia consequuntur, est
+        explicabo beatae ab sequi accusantium illo velit debitis sit saepe nemo? Animi doloremque saepe, alias
+        aspernatur aliquid consequatur error quaerat sapiente quia dolor mollitia nemo porro consequuntur id dignissimos
+        eum rerum unde quibusdam libero laborum expedita molestias quod. Ab exercitationem illum vero unde beatae minus!
+    </div>
+</body>
+
+</html>
